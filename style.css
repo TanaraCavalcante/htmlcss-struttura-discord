@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+/*--Intestazione--*/
+
+
+.header-top{
+    display: flex;
+    background-color: lightblue;
+    height: 60px;
+}
+
+.header-bottom{
+    display: flex;
+    background-color: rgb(38, 105, 212);
+    height: 300px;
+}
