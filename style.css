@@ -15,6 +15,7 @@
 
 }
 
+
 /*--Intestazione--*/
   header{
     margin-bottom: 30px;
@@ -158,6 +159,50 @@ nav{
     background-color: rgb(222, 243, 119);
     border: 2px dashed rgb(0, 0, 0);
     align-self: center;
+    margin: 0 auto; 
+}
+
+/*---footer---*/
+
+footer{
+    height: 600px;
+    margin: 0 auto;
+    background-color: rgb(73, 84, 84);
+    width: auto;
+
+}
+.container{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items:center;
+    width: 1000px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+.larger-footer{
+    display: flex;
+    height: 500px;
+    width: 200px;
+    margin: 0 auto;
+    border: 2px dashed black;  
+    background-color: rgb(118, 58, 118); 
+}
+
+.container-f{
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+    width: 800px;
     margin: 0 auto;
     
+}
+
+.container-f > div{
+    display: flex;
+    height: 500px;
+    width:25%;
+    border: 2px dashed black;
+    background-color: rgb(65, 237, 237);
 }
