@@ -12,7 +12,7 @@
 .all-width{
     background-color: gray;
     width: auto;
-    
+
 }
 
 /*--Intestazione--*/
@@ -142,5 +142,22 @@ nav{
 
 }
 
+/*--- Section - 4--*/
+ 
+.section-4{
+    display: flex;
+    height: 700px;
+    align-self: center;
+    
+}
 
-
+.center-4{
+    display: flex;
+    width: 1000px;
+    height: 600px;
+    background-color: rgb(222, 243, 119);
+    border: 2px dashed rgb(0, 0, 0);
+    align-self: center;
+    margin: 0 auto;
+    
+}
