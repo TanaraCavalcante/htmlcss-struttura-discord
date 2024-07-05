@@ -10,6 +10,9 @@
 }
 
 /*--Intestazione--*/
+  header{
+    margin-bottom: 30px;
+  }
 
     /*-Small header-*/
 .header-top{
@@ -52,8 +55,18 @@ nav{
 
    /*-Large header-*/
 .header-bottom{
+    display: flex;
     background-color: rgb(38, 105, 212);
-    height: 300px;
-    justify-content: space-between;
+    height: 500px;
+    justify-content: center; 
+}
 
+.bottom-flex{
+    display: flex;
+    width: 800px;
+    height: 400px;
+    background-color: yellowgreen;
+    border: 2px dashed rgb(0, 0, 0);
+    align-self: center;
+    
 }
