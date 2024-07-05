@@ -9,6 +9,12 @@
     justify-content: end;
 }
 
+.all-width{
+    background-color: gray;
+    width: auto;
+    
+}
+
 /*--Intestazione--*/
   header{
     margin-bottom: 30px;
@@ -74,9 +80,9 @@ nav{
 
 /*----Corpo del sito----*/
 
-/*---Section - 1--- */
+/*--- Section - 1 e Section-3 --- */
 
-.section-1{
+.section {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -87,7 +93,7 @@ nav{
 
 }
 
-.left-1{
+.left{
     display: flex;
     background-color: pink;
     border: 2px dashed black;
@@ -96,7 +102,7 @@ nav{
     
 }
 
-.right-1{
+.right{
     display: flex;
     background-color: rgb(104, 216, 102);
     border: 2px dashed black;
@@ -104,5 +110,37 @@ nav{
     height: 400px;
 
 }
+
+/*--- Section - 2--- */
+
+.section-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+
+}
+
+.left-2{
+    display: flex;
+    background-color: rgb(104, 216, 102);
+    border: 2px dashed black;
+    width: 40%;
+    height: 400px;
+    
+}
+
+.right-2{
+    display: flex;
+    background-color:pink;
+    border: 2px dashed black;
+    width: 60%;
+    height: 400px;
+
+}
+
 
 
