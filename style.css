@@ -162,26 +162,22 @@ nav{
     margin: 0 auto; 
 }
 
-/*---footer---*/
-
-footer{
-    height: 600px;
-    margin: 0 auto;
-    background-color: rgb(73, 84, 84);
-    width: auto;
-
+/*Section-5*/
+.color{
+    background-color: rgb(33, 51, 51);
 }
-.container{
+
+.section-5 {
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
     justify-content: center;
-    align-items:center;
+    align-items: center;
     width: 1000px;
-    height: 600px;
     margin: 0 auto;
+    height: 550px;
 }
 
-.larger-footer{
+.left-5{
     display: flex;
     height: 500px;
     width: 200px;
@@ -190,19 +186,57 @@ footer{
     background-color: rgb(118, 58, 118); 
 }
 
-.container-f{
+.right-5{
     display: flex;
+    justify-content: center;
     flex-direction: row;
     height: 500px;
     width: 800px;
+    border: 2px dashed black;
+    background-color: rgb(0, 128, 113);
     margin: 0 auto;
-    
 }
 
-.container-f > div{
+.right-5 > div{
     display: flex;
     height: 500px;
     width:25%;
-    border: 2px dashed black;
+    border: 2px dashed rgb(255, 255, 255);
     background-color: rgb(65, 237, 237);
+    margin: 0 auto;
+}
+
+/* Footer*/
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 150px;
+    margin: 0 auto;
+    width: auto;
+    padding-top: 10px;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 60px;
+    border: 2px dashed black;
+    margin: 0 auto;
+    width: 1000px;
+    background-color: rgb(47, 255, 220);
+}
+
+.footer > div{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    height: 30px;
+    width: 80px;
+    border: 1px dashed black;
+    background-color: rgb(211, 141, 153);  
 }
